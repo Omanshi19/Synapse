@@ -1,241 +1,110 @@
-<!-- markdownlint-disable MD030 -->
-
 <p align="center">
-<img src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_white.svg#gh-light-mode-only">
-<img src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_dark.svg#gh-dark-mode-only">
+  <img width="200" src="https://raw.githubusercontent.com/Omanshi19/Synapse/main/packages/ui/src/assets/images/flowise_dark.svg" alt="Synapse Logo">
 </p>
 
-<div align="center">
+<h1 align="center">Synapse</h1>
 
-[![Release Notes](https://img.shields.io/github/release/FlowiseAI/Flowise)](https://github.com/FlowiseAI/Flowise/releases)
-[![Discord](https://img.shields.io/discord/1087698854775881778?label=Discord&logo=discord)](https://discord.gg/jbaHfsRVBW)
-[![Twitter Follow](https://img.shields.io/twitter/follow/FlowiseAI?style=social)](https://twitter.com/FlowiseAI)
-[![GitHub star chart](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social)](https://star-history.com/#FlowiseAI/Flowise)
-[![GitHub fork](https://img.shields.io/github/forks/FlowiseAI/Flowise?style=social)](https://github.com/FlowiseAI/Flowise/fork)
+<p align="center">
+  <b>Build AI Agents, Visually.</b><br/>
+  Drag-and-drop your way to powerful LLM workflows, chatbots, and autonomous agents.
+</p>
 
-English | [繁體中文](./i18n/README-TW.md) | [简体中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [한국어](./i18n/README-KR.md)
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anthropic-CC785C?style=flat-square&logoColor=white" />
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/Omanshi19/Synapse/stargazers"><img src="https://img.shields.io/github/stars/Omanshi19/Synapse?style=flat-square&color=7C3AED" /></a>
+  <a href="https://github.com/Omanshi19/Synapse/network/members"><img src="https://img.shields.io/github/forks/Omanshi19/Synapse?style=flat-square&color=06B6D4" /></a>
+  <a href="https://github.com/Omanshi19/Synapse/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-7C3AED?style=flat-square" /></a>
+  <a href="https://portfolio-website-omanshi.vercel.app"><img src="https://img.shields.io/badge/built%20by-Omanshi%20Kaushal-06B6D4?style=flat-square" /></a>
+</p>
 
-<h3>Build AI Agents, Visually</h3>
-<a href="https://github.com/FlowiseAI/Flowise">
-<img width="100%" src="https://github.com/FlowiseAI/Flowise/blob/main/images/flowise_agentflow.gif?raw=true"></a>
+---
 
-## 📚 Table of Contents
+## ✨ What is Synapse?
 
--   [⚡ Quick Start](#-quick-start)
--   [🐳 Docker](#-docker)
--   [👨‍💻 Developers](#-developers)
--   [🌱 Env Variables](#-env-variables)
--   [📖 Documentation](#-documentation)
--   [🌐 Self Host](#-self-host)
--   [☁️ Flowise Cloud](#️-flowise-cloud)
--   [🙋 Support](#-support)
--   [🙌 Contributing](#-contributing)
--   [📄 License](#-license)
+**Synapse** is an open-source visual AI workflow builder. Chain together LLMs, tools, memory, and data sources into powerful agents — all through a beautiful drag-and-drop canvas. No code required.
 
-## ⚡Quick Start
+> *"I never look back, darling. It distracts me from the now."*
 
-Download and Install [NodeJS](https://nodejs.org/en/download) >= 20.0.0
+---
 
-1. Install Flowise
-    ```bash
-    npm install -g flowise
-    ```
-2. Start Flowise
+## 🚀 Features
 
-    ```bash
-    npx flowise start
-    ```
+- 🎨 **Visual Canvas** — drag, drop, and connect AI nodes with zero code
+- 🤖 **100+ Integrations** — OpenAI, Anthropic, Gemini, Ollama, HuggingFace, and more
+- 🧩 **LangChain Powered** — built on LangChain.js for maximum flexibility
+- 📚 **Document Stores** — upload PDFs, scrape URLs, and build RAG pipelines
+- 🔑 **Instant APIs** — expose any flow as a REST API in one click
+- 💾 **Persistent Memory** — Redis, SQLite, and PostgreSQL support
+- 🛠️ **Custom Tools** — write JavaScript tools and inject them into agents
+- 🌊 **Streaming** — real-time token streaming for chat interfaces
+- 🐳 **Docker Ready** — one-command deployment anywhere
 
-3. Open [http://localhost:3000](http://localhost:3000)
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+- Node.js `v20+`
+- pnpm `v10.26.0+`
+
+```bash
+# Clone the repo
+git clone https://github.com/Omanshi19/Synapse.git
+cd Synapse
+
+# Install dependencies
+pnpm install
+
+# Build
+pnpm build
+
+# Start Synapse 🧠
+npx flowise start
+```
+
+Open **http://localhost:3000** and start building!
+
+---
 
 ## 🐳 Docker
 
-### Docker Compose
-
-1. Clone the Flowise project
-2. Go to `docker` folder at the root of the project
-3. Copy `.env.example` file, paste it into the same location, and rename to `.env` file
-4. `docker compose up -d`
-5. Open [http://localhost:3000](http://localhost:3000)
-6. You can bring the containers down by `docker compose stop`
-
-### Docker Image
-
-1. Build the image locally:
-
-    ```bash
-    docker build --no-cache -t flowise .
-    ```
-
-2. Run image:
-
-    ```bash
-    docker run -d --name flowise -p 3000:3000 flowise
-    ```
-
-3. Stop image:
-
-    ```bash
-    docker stop flowise
-    ```
-
-## 👨‍💻 Developers
-
-Flowise has 3 different modules in a single mono repository.
-
--   `server`: Node backend to serve API logics
--   `ui`: React frontend
--   `components`: Third-party nodes integrations
--   `api-documentation`: Auto-generated swagger-ui API docs from express
-
-### Prerequisite
-
--   Install [PNPM](https://pnpm.io/installation)
-    ```bash
-    npm i -g pnpm
-    ```
-
-### Setup
-
-1.  Clone the repository:
-
-    ```bash
-    git clone https://github.com/FlowiseAI/Flowise.git
-    ```
-
-2.  Go into repository folder:
-
-    ```bash
-    cd Flowise
-    ```
-
-3.  Install all dependencies of all modules:
-
-    ```bash
-    pnpm install
-    ```
-
-4.  Build all the code:
-
-    ```bash
-    pnpm build
-    ```
-
-    <details>
-    <summary>Exit code 134 (JavaScript heap out of memory)</summary>  
-    If you get this error when running the above `build` script, try increasing the Node.js heap size and run the script again:
-
-    ```bash
-    # macOS / Linux / Git Bash
-    export NODE_OPTIONS="--max-old-space-size=4096"
-
-    # Windows PowerShell
-    $env:NODE_OPTIONS="--max-old-space-size=4096"
-
-    # Windows CMD
-    set NODE_OPTIONS=--max-old-space-size=4096
-    ```
-
-    Then run:
-
-    ```bash
-    pnpm build
-    ```
-
-    </details>
-
-5.  Start the app:
-
-    ```bash
-    pnpm start
-    ```
-
-    You can now access the app on [http://localhost:3000](http://localhost:3000)
-
-6.  For development build:
-
-    -   Create `.env` file and specify the `VITE_PORT` (refer to `.env.example`) in `packages/ui`
-    -   Create `.env` file and specify the `PORT` (refer to `.env.example`) in `packages/server`
-    -   Run:
-
-        ```bash
-        pnpm dev
-        ```
-
-    Any code changes will reload the app automatically on [http://localhost:8080](http://localhost:8080)
-
-## 🌱 Env Variables
-
-Flowise supports different environment variables to configure your instance. You can specify the following variables in the `.env` file inside `packages/server` folder. Read [more](https://github.com/FlowiseAI/Flowise/blob/main/CONTRIBUTING.md#-env-variables)
-
-## 📖 Documentation
-
-You can view the Flowise Docs [here](https://docs.flowiseai.com/)
-
-## 🌐 Self Host
-
-Deploy Flowise self-hosted in your existing infrastructure, we support various [deployments](https://docs.flowiseai.com/configuration/deployment)
-
--   [AWS](https://docs.flowiseai.com/configuration/deployment/aws)
--   [Azure](https://docs.flowiseai.com/configuration/deployment/azure)
--   [Digital Ocean](https://docs.flowiseai.com/configuration/deployment/digital-ocean)
--   [GCP](https://docs.flowiseai.com/configuration/deployment/gcp)
--   [Alibaba Cloud](https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Flowise社区版)
--   <details>
-      <summary>Others</summary>
-
-    -   [Railway](https://docs.flowiseai.com/configuration/deployment/railway)
-
-        [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/pn4G8S?referralCode=WVNPD9)
-
-    -   [Northflank](https://northflank.com/stacks/deploy-flowiseai)
-
-        [![Deploy to Northflank](https://assets.northflank.com/deploy_to_northflank_smm_36700fb050.svg)](https://northflank.com/stacks/deploy-flowiseai)
-
-    -   [Render](https://docs.flowiseai.com/configuration/deployment/render)
-
-        [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://docs.flowiseai.com/configuration/deployment/render)
-
-    -   [HuggingFace Spaces](https://docs.flowiseai.com/configuration/deployment/hugging-face)
-
-        <a href="https://huggingface.co/spaces/FlowiseAI/Flowise"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="HuggingFace Spaces"></a>
-
-    -   [Elestio](https://elest.io/open-source/flowiseai)
-
-        [![Deploy on Elestio](https://elest.io/images/logos/deploy-to-elestio-btn.png)](https://elest.io/open-source/flowiseai)
-
-    -   [Sealos](https://template.sealos.io/deploy?templateName=flowise)
-
-        [![Deploy on Sealos](https://sealos.io/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=flowise)
-
-    -   [RepoCloud](https://repocloud.io/details/?app_id=29)
-
-        [![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploy.png)](https://repocloud.io/details/?app_id=29)
-
-      </details>
-
-## ☁️ Flowise Cloud
-
-Get Started with [Flowise Cloud](https://flowiseai.com/).
-
-## 🙋 Support
-
-Feel free to ask any questions, raise problems, and request new features in [Discussion](https://github.com/FlowiseAI/Flowise/discussions).
-
-## 🙌 Contributing
-
-Thanks go to these awesome contributors
-
-<a href="https://github.com/FlowiseAI/Flowise/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=FlowiseAI/Flowise" />
-</a><br><br>
-
-See [Contributing Guide](CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
-
-[![Star History Chart](https://api.star-history.com/svg?repos=FlowiseAI/Flowise&type=Timeline)](https://star-history.com/#FlowiseAI/Flowise&Date)
-
-## 📄 License
-
-Source code in this repository is made available under the [Apache License Version 2.0](LICENSE.md).
+```bash
+docker compose up -d
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Language | TypeScript |
+| Monorepo | Turborepo + pnpm workspaces |
+| Frontend | React 18, Vite, React Flow, Material UI, Redux |
+| Backend | Node.js, Express.js |
+| ORM | TypeORM |
+| Databases | SQLite, PostgreSQL, MySQL, MariaDB |
+| Queue / Workers | BullMQ + Redis |
+| AI Framework | LangChain Core + JS |
+| AI Providers | OpenAI, Anthropic, Google Gemini, AWS Bedrock |
+| Auth | Passport.js — JWT, OAuth2, OIDC |
+| Realtime | Socket.io |
+| DevOps | Docker, Docker Compose |
+
+---
+
+## 📁 Project Structure
