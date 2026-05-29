@@ -1,12 +1,5 @@
 <p align="center">
-  <img width="200" src="https://raw.githubusercontent.com/Omanshi19/Synapse/main/packages/ui/src/assets/images/flowise_dark.svg" alt="Synapse Logo">
-</p>
-
-<h1 align="center">Synapse</h1>
-
-<p align="center">
-  <b>Build AI Agents, Visually.</b><br/>
-  Drag-and-drop your way to powerful LLM workflows, chatbots, and autonomous agents.
+  <img src="https://raw.githubusercontent.com/Omanshi19/Synapse/main/packages/ui/src/assets/images/flowise_dark.svg" width="280" alt="Synapse" />
 </p>
 
 <p align="center">
@@ -21,23 +14,22 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Anthropic-CC785C?style=flat-square&logoColor=white" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Omanshi19/Synapse/stargazers"><img src="https://img.shields.io/github/stars/Omanshi19/Synapse?style=flat-square&color=7C3AED" /></a>
   <a href="https://github.com/Omanshi19/Synapse/network/members"><img src="https://img.shields.io/github/forks/Omanshi19/Synapse?style=flat-square&color=06B6D4" /></a>
   <a href="https://github.com/Omanshi19/Synapse/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-7C3AED?style=flat-square" /></a>
-  <a href="https://portfolio-website-omanshi.vercel.app"><img src="https://img.shields.io/badge/built%20by-Omanshi%20Kaushal-06B6D4?style=flat-square" /></a>
 </p>
+
+<p align="center"><b>Build AI Agents, Visually.</b></p>
+<p align="center">Drag-and-drop your way to powerful LLM workflows, chatbots, and autonomous agents — no code required.</p>
 
 ---
 
 ## ✨ What is Synapse?
 
-**Synapse** is an open-source visual AI workflow builder. Chain together LLMs, tools, memory, and data sources into powerful agents — all through a beautiful drag-and-drop canvas. No code required.
-
-> *"I never look back, darling. It distracts me from the now."*
+Synapse is an open-source visual AI workflow builder. Chain together LLMs, tools, memory, and data sources into powerful agents — all through a beautiful drag-and-drop canvas.
 
 ---
 
@@ -62,17 +54,10 @@
 - pnpm `v10.26.0+`
 
 ```bash
-# Clone the repo
 git clone https://github.com/Omanshi19/Synapse.git
 cd Synapse
-
-# Install dependencies
 pnpm install
-
-# Build
 pnpm build
-
-# Start Synapse 🧠
 npx flowise start
 ```
 
