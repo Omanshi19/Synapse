@@ -1,8 +1,5 @@
 <p align="center">
-  <br/>
-  <img src="https://img.shields.io/badge/🧠-Synapse-7C3AED?style=for-the-badge&logoColor=white&labelColor=1a1a2e" height="60" />
-  <br/><br/>
-  <i>Build AI Agents, Visually.</i>
+  <img src="./synapse_banner.svg" width="500" alt="Synapse" />
 </p>
 
 <p align="center">
