@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Omanshi19/Synapse/main/packages/ui/src/assets/images/flowise_dark.svg" width="280" alt="Synapse" />
+  <img src="https://raw.githubusercontent.com/Omanshi19/Synapse/main/synapse_banner.svg" width="400" alt="Synapse" />
 </p>
 
 <p align="center">
