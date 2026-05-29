@@ -92,4 +92,4 @@ docker compose up -d
 
 ---
 
-## 📁 Project Structure
+Developed by - Omanshi Kaushal
