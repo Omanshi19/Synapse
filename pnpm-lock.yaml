@@ -3,7 +3,7 @@ lockfileVersion: '9.0'
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
-
+ 
 overrides:
   '@anthropic-ai/sdk': ^0.73.0
   '@google/generative-ai': ^0.24.0
