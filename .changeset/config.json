@@ -4,7 +4,7 @@
     "commit": false,
     "fixed": [],   
     "linked": [],   
-    "access": "public",  
+    "access": "public",   
     "baseBranch": "main",  
     "updateInternalDependencies": "patch",
     "ignore": ["flowise", "flowise-api", "flowise-components", "flowise-ui"]
