@@ -5,7 +5,7 @@
         "builtIn": 1,
         "datasource": { 
           "type": "grafana",
-          "uid": "-- Grafana --"
+          "uid": "-- Grafana --" 
         },
         "enable": true,
         "hide": true,
